@@ -1,0 +1,3 @@
+SHELL=/bin/bash
+HOME=/
+*/5 * * * * WAREHOUSE_USER=root WAREHOUSE_PASSWORD=root WAREHOUSE_DB=finance WAREHOUSE_HOST=warehouse WAREHOUSE_PORT=5432  PYTHONPATH=/code/src /usr/local/bin/python /code/src/bitcoinmonitor/exchange_data_etl.py
