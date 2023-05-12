@@ -1,12 +1,12 @@
 # Bitcoin Monitor
 
-This is an ETL pipeline to pull bitcoin exchange data from [CoinCap API](https://docs.coincap.io/) and load it into our data warehouse.
+This is an ETL pipeline to pull bitcoin exchange data from [CoinCap API](https://docs.coincap.io/) and load it into data warehouse.
 
 ## Architecture
 
 ![Arch](assets/images/architecture.jpg)
 
-We use python to pull, transform and load data. Our warehouse is postgres. We also spin up a Metabase instance for our presentation layer.
+We use python script to pull, transform and load data into Postgres Warehouse. We also spin up a Metabase instance for our presentation layer.
 
 All of the components are running as docker containers.
 
