@@ -112,8 +112,8 @@ sudo apt install make
 echo 'Clone git repo to EC2'
 cd /home/ubuntu && git clone https://github.com/Franklyne-kibet/bitcoinMonitor.git
 
-echo 'CD to cryptoMonitor directory'
-cd cryptoMonitor
+echo 'CD to bitcoinMonitor directory'
+cd bitcoinMonitor
 
 echo 'Start containers'
 make up
